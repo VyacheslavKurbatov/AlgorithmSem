@@ -14,7 +14,7 @@ public class Main {
 //        map.remove(17);
 //        System.out.println(map.find(17));
 
-        Tree tree = new Tree();
+        LeftRedBlackTree tree = new LeftRedBlackTree();
 
         for (int i = 1; i <= 5 ; i++){
             tree.insert(i);
